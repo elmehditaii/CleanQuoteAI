@@ -1,0 +1,122 @@
+[
+  {
+    "categorie": "tarifs_horaires",
+    "contenu": "Nettoyage courant (entretien régulier) : tarif horaire de 25 à 32 € HT/heure selon la région. Comprend : dépoussiérage des surfaces, aspiration et lavage des sols, vidage des corbeilles, nettoyage des sanitaires, désinfection des points de contact. Tarif moyen constaté en France : 28 € HT/heure. Agent qualifié AS1/AS2 de la convention collective de la propreté.",
+    "metadata": { "type_prestation": "courant", "tarif_min": 25, "tarif_max": 32, "tarif_moyen": 28, "unite": "EUR_HT_heure" }
+  },
+  {
+    "categorie": "tarifs_horaires",
+    "contenu": "Nettoyage approfondi (remise en état, grand nettoyage périodique) : tarif horaire de 32 à 45 € HT/heure. Comprend : décapage et protection des sols, shampouinage moquettes, lessivage des murs et plafonds, nettoyage des vitres intérieures, détartrage complet des sanitaires. Tarif moyen : 38 € HT/heure. Recommandé 2 à 4 fois par an en complément du nettoyage courant.",
+    "metadata": { "type_prestation": "approfondi", "tarif_min": 32, "tarif_max": 45, "tarif_moyen": 38, "unite": "EUR_HT_heure" }
+  },
+  {
+    "categorie": "tarifs_horaires",
+    "contenu": "Nettoyage spécial (prestations techniques) : tarif horaire de 40 à 65 € HT/heure. Comprend : nettoyage après travaux ou sinistre, vitrerie en hauteur (nacelle), bionettoyage en milieu médical, désinfection virucide EN 14476, cryogénie, traitement anti-graffiti. Tarif moyen : 50 € HT/heure. Nécessite des agents certifiés et du matériel spécialisé.",
+    "metadata": { "type_prestation": "special", "tarif_min": 40, "tarif_max": 65, "tarif_moyen": 50, "unite": "EUR_HT_heure" }
+  },
+  {
+    "categorie": "temps_standards",
+    "contenu": "Temps standards pour bureaux : nettoyage courant d'un plateau de bureaux = 200 à 250 m²/heure (open space peu encombré : 250 m²/h ; bureaux cloisonnés : 180-200 m²/h). Sanitaires de bureaux : 15 minutes par bloc sanitaire. Salle de réunion : 10 minutes par salle. Cuisine/tisanerie : 20 minutes. Un immeuble de bureaux de 1000 m² nécessite environ 4 à 5 heures de nettoyage courant par passage.",
+    "metadata": { "type_local": "bureau", "rendement_m2_heure": 220, "rendement_min": 180, "rendement_max": 250 }
+  },
+  {
+    "categorie": "temps_standards",
+    "contenu": "Temps standards pour commerces : surface de vente = 150 à 200 m²/heure (présence de mobilier, portants, rayonnages). Vitrines : 10 minutes par vitrine standard. Zone caisse : 15 minutes. Réserve/stock : 250 m²/heure. Un commerce de 300 m² nécessite environ 2 heures de nettoyage courant par passage, idéalement avant ouverture (avant 9h) ou après fermeture.",
+    "metadata": { "type_local": "commerce", "rendement_m2_heure": 175, "rendement_min": 150, "rendement_max": 200 }
+  },
+  {
+    "categorie": "temps_standards",
+    "contenu": "Temps standards pour entrepôts et locaux logistiques : nettoyage mécanisé (autolaveuse) = 800 à 1200 m²/heure ; nettoyage manuel des zones de circulation = 300 à 400 m²/heure. Bureaux attenants : 200 m²/heure. Quais de chargement : 250 m²/heure. Un entrepôt de 5000 m² avec autolaveuse nécessite environ 5 à 6 heures par passage. La location d'autolaveuse ajoute 80 à 150 € HT/mois au contrat.",
+    "metadata": { "type_local": "entrepot", "rendement_m2_heure_mecanise": 1000, "rendement_m2_heure_manuel": 350, "surcout_autolaveuse_mensuel": 115 }
+  },
+  {
+    "categorie": "temps_standards",
+    "contenu": "Temps standards pour restaurants : salle de restauration = 100 à 130 m²/heure (tables, chaises, sols gras). Cuisine professionnelle : 40 à 60 m²/heure (dégraissage obligatoire, normes HACCP). Sanitaires clients : 20 minutes par bloc. Plonge et zones de préparation : nettoyage quotidien obligatoire. Un restaurant de 200 m² (dont 60 m² de cuisine) nécessite environ 2h30 à 3h par jour.",
+    "metadata": { "type_local": "restaurant", "rendement_salle_m2_heure": 115, "rendement_cuisine_m2_heure": 50 }
+  },
+  {
+    "categorie": "temps_standards",
+    "contenu": "Temps standards pour locaux médicaux (cabinets, cliniques, laboratoires) : bionettoyage des salles de consultation = 80 à 100 m²/heure (protocole strict, essuyage humide, désinfection). Salle d'attente : 120 m²/heure. Bloc ou salle de soins : 30 minutes par salle avec traçabilité. Le bionettoyage exige des produits virucides EN 14476 et des protocoles documentés, ce qui majore le tarif horaire de 15 à 25 %.",
+    "metadata": { "type_local": "medical", "rendement_m2_heure": 90, "majoration_bionettoyage_pct": 20 }
+  },
+  {
+    "categorie": "majorations",
+    "contenu": "Majorations tarifaires applicables : travail de nuit (21h-6h) : +25 % sur le tarif horaire (obligation conventionnelle). Travail le week-end (samedi/dimanche) : +30 %. Jours fériés : +50 à +100 %. Localisation Île-de-France (Paris et petite couronne) : +15 % par rapport au tarif province. Produits écologiques certifiés Écolabel : +10 % sur le montant total. Intervention en urgence (moins de 24h) : +20 à +30 %.",
+    "metadata": { "nuit_pct": 25, "weekend_pct": 30, "ferie_pct_min": 50, "idf_pct": 15, "ecologique_pct": 10, "urgence_pct": 25 }
+  },
+  {
+    "categorie": "majorations",
+    "contenu": "Éléments de facturation complémentaires : frais de déplacement inclus dans un rayon de 20 km, au-delà 0,60 €/km. Fournitures d'hygiène (papier, savon, essuie-mains) refacturées au réel ou au forfait de 2 à 4 € par personne et par mois. Consommables de nettoyage inclus dans le tarif horaire. Accès sécurisé nécessitant badge/habilitation : +5 % administratif. Minimum de facturation : 2 heures par intervention. TVA applicable : 20 %.",
+    "metadata": { "km_supplementaire": 0.6, "fournitures_par_personne_mois": 3, "acces_securise_pct": 5, "minimum_heures": 2, "tva_pct": 20 }
+  },
+  {
+    "categorie": "exemples_devis",
+    "contenu": "Exemple devis n°1 — Bureaux 450 m² à Lyon (69), nettoyage courant 3 fois/semaine en soirée (18h-21h) : 2h15 par passage à 28 € HT/h, soit 29,25 h/mois = 819 € HT/mois (982,80 € TTC). Option approfondi trimestriel : +320 € HT/trimestre. Position marché : compétitif (fourchette locale 750-950 € HT/mois pour cette surface et fréquence).",
+    "metadata": { "type_local": "bureau", "superficie_m2": 450, "ville": "Lyon", "frequence": "3x_semaine", "total_ht_mensuel": 819, "total_ttc_mensuel": 982.8 }
+  },
+  {
+    "categorie": "exemples_devis",
+    "contenu": "Exemple devis n°2 — Bureaux 1200 m² à Paris 8e (75), nettoyage courant quotidien (5j/7) en soirée : 5h30 par passage à 32,20 € HT/h (28 € +15 % IDF), soit 119 h/mois = 3 832 € HT/mois (4 598 € TTC). Inclut vidage corbeilles, sanitaires (4 blocs), 2 salles de réunion, tisanerie. Position marché : compétitif (fourchette Paris 3 600-4 500 € HT/mois).",
+    "metadata": { "type_local": "bureau", "superficie_m2": 1200, "ville": "Paris", "frequence": "quotidien", "total_ht_mensuel": 3832, "total_ttc_mensuel": 4598 }
+  },
+  {
+    "categorie": "exemples_devis",
+    "contenu": "Exemple devis n°3 — Boutique prêt-à-porter 180 m² à Bordeaux (33), nettoyage courant 6 jours/7 avant ouverture (7h-8h) : 1h15 par passage à 28 € HT/h, soit 32,5 h/mois = 910 € HT/mois (1 092 € TTC). Vitrines incluses 1 fois/semaine. Position marché : dans la moyenne (fourchette 850-1 050 € HT/mois).",
+    "metadata": { "type_local": "commerce", "superficie_m2": 180, "ville": "Bordeaux", "frequence": "6x_semaine", "total_ht_mensuel": 910, "total_ttc_mensuel": 1092 }
+  },
+  {
+    "categorie": "exemples_devis",
+    "contenu": "Exemple devis n°4 — Entrepôt logistique 4500 m² à Lille (59), nettoyage mécanisé 2 fois/semaine + bureaux 150 m² quotidien : entrepôt 4,5h/passage (autolaveuse) à 30 € HT/h + bureaux 45 min/jour à 28 € HT/h. Total : 39 h + 16,5 h = 1 632 € HT/mois + location autolaveuse 120 € = 1 752 € HT/mois (2 102,40 € TTC). Position marché : compétitif.",
+    "metadata": { "type_local": "entrepot", "superficie_m2": 4500, "ville": "Lille", "frequence": "2x_semaine", "total_ht_mensuel": 1752, "total_ttc_mensuel": 2102.4 }
+  },
+  {
+    "categorie": "exemples_devis",
+    "contenu": "Exemple devis n°5 — Restaurant 220 m² (dont 70 m² cuisine) à Marseille (13), nettoyage quotidien 7j/7 après service (23h-1h30, majoration nuit +25 %) : 2h30 par passage à 35 € HT/h (28 € +25 % nuit), soit 76 h/mois = 2 660 € HT/mois (3 192 € TTC). Dégraissage cuisine HACCP inclus, dégraissage hotte en option (180 € HT/trimestre). Position marché : dans la moyenne (2 400-3 000 € HT/mois).",
+    "metadata": { "type_local": "restaurant", "superficie_m2": 220, "ville": "Marseille", "frequence": "quotidien_nuit", "total_ht_mensuel": 2660, "total_ttc_mensuel": 3192 }
+  },
+  {
+    "categorie": "exemples_devis",
+    "contenu": "Exemple devis n°6 — Cabinet médical 140 m² (3 salles de consultation) à Nantes (44), bionettoyage quotidien 5j/7 en soirée : 1h45 par passage à 34 € HT/h (28 € +20 % bionettoyage), soit 38,5 h/mois = 1 309 € HT/mois (1 570,80 € TTC). Protocole de traçabilité et produits virucides EN 14476 inclus. Position marché : compétitif (fourchette 1 250-1 550 € HT/mois pour du médical).",
+    "metadata": { "type_local": "medical", "superficie_m2": 140, "ville": "Nantes", "frequence": "quotidien", "total_ht_mensuel": 1309, "total_ttc_mensuel": 1570.8 }
+  },
+  {
+    "categorie": "exemples_devis",
+    "contenu": "Exemple devis n°7 — Bureaux 300 m² à Toulouse (31), nettoyage courant 2 fois/semaine avec produits écologiques Écolabel : 1h30 par passage à 30,80 € HT/h (28 € +10 % éco), soit 13 h/mois = 400 € HT/mois (480 € TTC). Position marché : économique (fourchette locale 380-520 € HT/mois). Client sensible RSE, produits certifiés et tri des déchets inclus.",
+    "metadata": { "type_local": "bureau", "superficie_m2": 300, "ville": "Toulouse", "frequence": "2x_semaine", "ecologique": true, "total_ht_mensuel": 400, "total_ttc_mensuel": 480 }
+  },
+  {
+    "categorie": "exemples_devis",
+    "contenu": "Exemple devis n°8 — Supermarché 900 m² à Rennes (35), nettoyage quotidien 7j/7 avant ouverture (5h-8h) avec autolaveuse : 3h par passage à 29 € HT/h, soit 91 h/mois = 2 639 € HT/mois + autolaveuse 130 € = 2 769 € HT/mois (3 322,80 € TTC). Surface de vente, caisses, sanitaires clients et personnel. Position marché : compétitif (2 600-3 200 € HT/mois).",
+    "metadata": { "type_local": "commerce", "superficie_m2": 900, "ville": "Rennes", "frequence": "quotidien", "total_ht_mensuel": 2769, "total_ttc_mensuel": 3322.8 }
+  },
+  {
+    "categorie": "exemples_devis",
+    "contenu": "Exemple devis n°9 — Plateau de bureaux 2500 m² à La Défense (92, IDF), nettoyage quotidien 5j/7 en soirée + approfondi semestriel : 11h par passage à 32,20 € HT/h (+15 % IDF), soit 238 h/mois = 7 664 € HT/mois (9 196,80 € TTC), approfondi semestriel 2 850 € HT inclus au prorata. Prestation premium : chef d'équipe dédié, contrôle qualité mensuel, cahier de liaison numérique. Position marché : premium (fourchette 6 800-8 200 € HT/mois).",
+    "metadata": { "type_local": "bureau", "superficie_m2": 2500, "ville": "La Défense", "frequence": "quotidien", "total_ht_mensuel": 7664, "total_ttc_mensuel": 9196.8 }
+  },
+  {
+    "categorie": "exemples_devis",
+    "contenu": "Exemple devis n°10 — Laboratoire d'analyses 350 m² à Strasbourg (67), bionettoyage quotidien 6j/7 tôt le matin (5h-7h) : 2h par passage à 40,80 € HT/h (28 € +20 % bionettoyage +25 % horaires de nuit partiels lissés), soit 52 h/mois = 2 122 € HT/mois (2 546,40 € TTC). Traçabilité complète, agents formés au risque biologique, protocole validé par le référent hygiène. Position marché : premium justifié par la technicité.",
+    "metadata": { "type_local": "medical", "superficie_m2": 350, "ville": "Strasbourg", "frequence": "6x_semaine", "total_ht_mensuel": 2122, "total_ttc_mensuel": 2546.4 }
+  },
+  {
+    "categorie": "normes",
+    "contenu": "Normes professionnelles françaises : la convention collective nationale des entreprises de propreté (CCN n°3173) fixe les qualifications (AS1 à AS3, ATQS, chef d'équipe) et les majorations obligatoires (nuit, dimanche, jours fériés). La norme NF EN 13549 définit les exigences de mesure de la qualité du nettoyage. Le label Qualipropre certifie le professionnalisme des entreprises. Assurance responsabilité civile professionnelle obligatoire.",
+    "metadata": { "convention": "CCN 3173", "normes": ["NF EN 13549", "Qualipropre"] }
+  },
+  {
+    "categorie": "normes",
+    "contenu": "Normes d'hygiène spécifiques : HACCP obligatoire pour les cuisines et la restauration (plan de nettoyage et désinfection documenté). Bionettoyage médical selon la norme NF S 90-351 (zones à risque 1 à 4) avec produits virucides EN 14476, bactéricides EN 1276 et fongicides EN 1650. En période d'épidémie, protocole de désinfection renforcée des points de contact toutes les 4 heures recommandé.",
+    "metadata": { "normes": ["HACCP", "NF S 90-351", "EN 14476", "EN 1276", "EN 1650"] }
+  },
+  {
+    "categorie": "normes",
+    "contenu": "Bonnes pratiques contractuelles : un contrat de nettoyage professionnel précise les fréquences par prestation, le cahier des charges détaillé par zone, les plages horaires d'intervention, la clause de révision annuelle des prix (indexée sur l'évolution de la CCN propreté, typiquement +2 à +4 %/an), le préavis de résiliation (généralement 3 mois), et les modalités de contrôle qualité (audit contradictoire, fiche de passage). L'annexe 7 de la CCN garantit la reprise du personnel en cas de changement de prestataire.",
+    "metadata": { "revision_annuelle_pct": 3, "preavis_mois": 3, "annexe_reprise_personnel": "Annexe 7 CCN" }
+  },
+  {
+    "categorie": "normes",
+    "contenu": "Calcul d'un devis de nettoyage : (1) déterminer le temps par passage = superficie ÷ rendement m²/h selon le type de local, en ajoutant les temps fixes (sanitaires, cuisines, vitrines) ; (2) multiplier par la fréquence mensuelle (quotidien 5j/7 ≈ 21,67 passages/mois, 3x/semaine = 13 passages/mois, 2x/semaine ≈ 8,67, 1x/semaine ≈ 4,33, 7j/7 ≈ 30,42) ; (3) appliquer le tarif horaire avec les majorations (nuit, week-end, IDF, éco, technicité) ; (4) ajouter les forfaits (autolaveuse, fournitures) ; (5) TVA 20 % pour le TTC. Toujours proposer 3 options : économique (fréquence réduite ou périmètre restreint), standard (demande du client), premium (fréquence ou prestations enrichies).",
+    "metadata": { "passages_quotidien_5j7": 21.67, "passages_3x_semaine": 13, "passages_2x_semaine": 8.67, "passages_1x_semaine": 4.33, "passages_7j7": 30.42, "tva_pct": 20 }
+  }
+]

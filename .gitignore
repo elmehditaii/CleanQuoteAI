@@ -1,0 +1,18 @@
+# .NET
+bin/
+obj/
+*.user
+.vs/
+
+# Node (cleanquote-ui a aussi son propre .gitignore)
+node_modules/
+dist/
+dist-ssr/
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+
+# Claude Code (config/état local à la machine)
+.claude/
